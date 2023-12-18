@@ -84,6 +84,27 @@ public class Main {
             System.out.println("Потребуется дней "+days);
         }
 
+        //Task 5
+
+        int monthNumber = 14;
+
+        switch (monthNumber) {
+            case 12,1,2:
+                System.out.println(monthNumber+" месяц принадлежит сезону зима");
+                break;
+            case 3,4,5:
+                System.out.println(monthNumber+" месяц принадлежит сезону весна");
+                break;
+            case 6,7,8:
+                System.out.println(monthNumber+" месяц принадлежит сезону лето");
+                break;
+            case 9,10,11:
+                System.out.println(monthNumber+" месяц принадлежит сезону осень");
+                break;
+            default:
+                System.out.println(monthNumber+" месяца несуществует");
+        }
+
     }
 
 }
